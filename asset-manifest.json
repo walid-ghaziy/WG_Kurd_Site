@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WG_Kurd_Site/static/css/main.f56fb3f1.css",
-    "main.js": "/WG_Kurd_Site/static/js/main.1bc950ef.js",
+    "main.css": "/WG_Kurd_Site/static/css/main.9353b531.css",
+    "main.js": "/WG_Kurd_Site/static/js/main.96158302.js",
     "static/media/Screenshot 2024-02-01 193406.png": "/WG_Kurd_Site/static/media/Screenshot 2024-02-01 193406.85504ca6503337f2ff01.png",
     "static/media/Instagram_logo_2016.svg.webp": "/WG_Kurd_Site/static/media/Instagram_logo_2016.svg.e905e80e3d57cc2b32c7.webp",
     "static/media/IMG_0427.PNG": "/WG_Kurd_Site/static/media/IMG_0427.4a4000c5abe2a3d2a1ae.PNG",
@@ -14,6 +14,7 @@
     "static/media/cv.png": "/WG_Kurd_Site/static/media/cv.901703fc76bc088b47e5.png",
     "static/media/test5.jpg": "/WG_Kurd_Site/static/media/test5.a88922a71fc51786f331.jpg",
     "static/media/jpg": "/WG_Kurd_Site/static/media/8ab21b1edaa6d6d3405af14cd018a91b.036103d43ce19bc84241.jpg",
+    "static/media/wlogo.jpg": "/WG_Kurd_Site/static/media/wlogo.0f9bde37ea858b3b926a.jpg",
     "static/media/test6.jpg": "/WG_Kurd_Site/static/media/test6.b1690eb646b3a1f9289a.jpg",
     "static/media/test2.jpg": "/WG_Kurd_Site/static/media/test2.7e0c23c34de00b908477.jpg",
     "static/media/IMG_0440.PNG": "/WG_Kurd_Site/static/media/IMG_0440.c66888d27c352c3128a0.PNG",
@@ -23,11 +24,11 @@
     "static/media/IMG_0444.PNG": "/WG_Kurd_Site/static/media/IMG_0444.0024e2fecd455fb6d406.PNG",
     "static/media/IMG_0439.PNG": "/WG_Kurd_Site/static/media/IMG_0439.7d0d22c94460b9cfba74.PNG",
     "index.html": "/WG_Kurd_Site/index.html",
-    "main.f56fb3f1.css.map": "/WG_Kurd_Site/static/css/main.f56fb3f1.css.map",
-    "main.1bc950ef.js.map": "/WG_Kurd_Site/static/js/main.1bc950ef.js.map"
+    "main.9353b531.css.map": "/WG_Kurd_Site/static/css/main.9353b531.css.map",
+    "main.96158302.js.map": "/WG_Kurd_Site/static/js/main.96158302.js.map"
   },
   "entrypoints": [
-    "static/css/main.f56fb3f1.css",
-    "static/js/main.1bc950ef.js"
+    "static/css/main.9353b531.css",
+    "static/js/main.96158302.js"
   ]
 }
