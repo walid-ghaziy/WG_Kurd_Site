@@ -1,0 +1,36 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "walid",
+      "age": 23
+    },
+    {
+      "id": 2,
+      "name": "nor",
+      "age": 23
+    },
+    {
+      "id": 3,
+      "name": "mohamad",
+      "age": 23
+    },
+    {
+      "id": 4,
+      "name": "mardan",
+      "age": 23
+    },
+    {
+      "id": "818f",
+      "name": "gohdar"
+    },
+    {
+      "id": "5948",
+      "name": "ji"
+    },
+    {
+      "id": "2412",
+      "name": "llkk"
+    }
+  ]
+}
