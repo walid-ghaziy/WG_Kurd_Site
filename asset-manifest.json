@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WG_Kurd_Site/static/css/main.92ab37bb.css",
-    "main.js": "/WG_Kurd_Site/static/js/main.7949d885.js",
+    "main.js": "/WG_Kurd_Site/static/js/main.3d222069.js",
     "static/media/Screenshot 2024-02-01 193406.png": "/WG_Kurd_Site/static/media/Screenshot 2024-02-01 193406.85504ca6503337f2ff01.png",
     "static/media/Instagram_logo_2016.svg.webp": "/WG_Kurd_Site/static/media/Instagram_logo_2016.svg.e905e80e3d57cc2b32c7.webp",
     "static/media/IMG_0427.PNG": "/WG_Kurd_Site/static/media/IMG_0427.4a4000c5abe2a3d2a1ae.PNG",
@@ -26,10 +26,10 @@
     "static/media/IMG_0439.PNG": "/WG_Kurd_Site/static/media/IMG_0439.7d0d22c94460b9cfba74.PNG",
     "index.html": "/WG_Kurd_Site/index.html",
     "main.92ab37bb.css.map": "/WG_Kurd_Site/static/css/main.92ab37bb.css.map",
-    "main.7949d885.js.map": "/WG_Kurd_Site/static/js/main.7949d885.js.map"
+    "main.3d222069.js.map": "/WG_Kurd_Site/static/js/main.3d222069.js.map"
   },
   "entrypoints": [
     "static/css/main.92ab37bb.css",
-    "static/js/main.7949d885.js"
+    "static/js/main.3d222069.js"
   ]
 }
