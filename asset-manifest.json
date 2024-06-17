@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/WG_Kurd_Site/static/css/main.f7a97c37.css",
-    "main.js": "/WG_Kurd_Site/static/js/main.6c4192fe.js",
+    "main.css": "/WG_Kurd_Site/static/css/main.3894b530.css",
+    "main.js": "/WG_Kurd_Site/static/js/main.83d21f2f.js",
     "static/media/Screenshot 2024-02-01 193406.png": "/WG_Kurd_Site/static/media/Screenshot 2024-02-01 193406.85504ca6503337f2ff01.png",
     "static/media/Instagram_logo_2016.svg.webp": "/WG_Kurd_Site/static/media/Instagram_logo_2016.svg.e905e80e3d57cc2b32c7.webp",
     "static/media/IMG_0427.PNG": "/WG_Kurd_Site/static/media/IMG_0427.4a4000c5abe2a3d2a1ae.PNG",
     "static/media/test3.jpg": "/WG_Kurd_Site/static/media/test3.b71627417776815fd5df.jpg",
     "static/media/w2.png": "/WG_Kurd_Site/static/media/w2.b3a75675504840979127.png",
     "static/media/test1.png": "/WG_Kurd_Site/static/media/test1.563a5efb35cb5529ab46.png",
+    "static/media/codigo-qr-gratis.jpg": "/WG_Kurd_Site/static/media/codigo-qr-gratis.3d2ba8c86b2136225a08.jpg",
     "static/media/test4.png": "/WG_Kurd_Site/static/media/test4.268996b2cac1042b3885.png",
     "static/media/test8.jpg": "/WG_Kurd_Site/static/media/test8.fd0cbaa0530bf5b79c24.jpg",
     "static/media/snapchat-logo-icon-social-media-icon-free-png.webp": "/WG_Kurd_Site/static/media/snapchat-logo-icon-social-media-icon-free-png.80a278df914176795815.webp",
@@ -25,11 +26,11 @@
     "static/media/IMG_0444.PNG": "/WG_Kurd_Site/static/media/IMG_0444.0024e2fecd455fb6d406.PNG",
     "static/media/IMG_0439.PNG": "/WG_Kurd_Site/static/media/IMG_0439.7d0d22c94460b9cfba74.PNG",
     "index.html": "/WG_Kurd_Site/index.html",
-    "main.f7a97c37.css.map": "/WG_Kurd_Site/static/css/main.f7a97c37.css.map",
-    "main.6c4192fe.js.map": "/WG_Kurd_Site/static/js/main.6c4192fe.js.map"
+    "main.3894b530.css.map": "/WG_Kurd_Site/static/css/main.3894b530.css.map",
+    "main.83d21f2f.js.map": "/WG_Kurd_Site/static/js/main.83d21f2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7a97c37.css",
-    "static/js/main.6c4192fe.js"
+    "static/css/main.3894b530.css",
+    "static/js/main.83d21f2f.js"
   ]
 }
