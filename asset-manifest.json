@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WG_Kurd_Site/static/css/main.fc416550.css",
-    "main.js": "/WG_Kurd_Site/static/js/main.c6fe98ea.js",
+    "main.css": "/WG_Kurd_Site/static/css/main.cd8b8ed9.css",
+    "main.js": "/WG_Kurd_Site/static/js/main.7777d001.js",
     "static/media/Screenshot 2024-02-01 193406.png": "/WG_Kurd_Site/static/media/Screenshot 2024-02-01 193406.85504ca6503337f2ff01.png",
     "static/media/Instagram_logo_2016.svg.webp": "/WG_Kurd_Site/static/media/Instagram_logo_2016.svg.e905e80e3d57cc2b32c7.webp",
     "static/media/IMG_0427.PNG": "/WG_Kurd_Site/static/media/IMG_0427.4a4000c5abe2a3d2a1ae.PNG",
@@ -11,6 +11,8 @@
     "static/media/codigo-qr-gratis.jpg": "/WG_Kurd_Site/static/media/codigo-qr-gratis.3d2ba8c86b2136225a08.jpg",
     "static/media/test4.png": "/WG_Kurd_Site/static/media/test4.268996b2cac1042b3885.png",
     "static/media/test8.jpg": "/WG_Kurd_Site/static/media/test8.fd0cbaa0530bf5b79c24.jpg",
+    "static/media/singin.PNG": "/WG_Kurd_Site/static/media/singin.24b8a74e100df4b19af7.PNG",
+    "static/media/login.PNG": "/WG_Kurd_Site/static/media/login.57b512b81bcd06c00e0e.PNG",
     "static/media/snapchat-logo-icon-social-media-icon-free-png.webp": "/WG_Kurd_Site/static/media/snapchat-logo-icon-social-media-icon-free-png.80a278df914176795815.webp",
     "static/media/wlogo.png": "/WG_Kurd_Site/static/media/wlogo.6090d36c84693cb351bf.png",
     "static/media/cv.png": "/WG_Kurd_Site/static/media/cv.901703fc76bc088b47e5.png",
@@ -26,11 +28,11 @@
     "static/media/IMG_0444.PNG": "/WG_Kurd_Site/static/media/IMG_0444.0024e2fecd455fb6d406.PNG",
     "static/media/IMG_0439.PNG": "/WG_Kurd_Site/static/media/IMG_0439.7d0d22c94460b9cfba74.PNG",
     "index.html": "/WG_Kurd_Site/index.html",
-    "main.fc416550.css.map": "/WG_Kurd_Site/static/css/main.fc416550.css.map",
-    "main.c6fe98ea.js.map": "/WG_Kurd_Site/static/js/main.c6fe98ea.js.map"
+    "main.cd8b8ed9.css.map": "/WG_Kurd_Site/static/css/main.cd8b8ed9.css.map",
+    "main.7777d001.js.map": "/WG_Kurd_Site/static/js/main.7777d001.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc416550.css",
-    "static/js/main.c6fe98ea.js"
+    "static/css/main.cd8b8ed9.css",
+    "static/js/main.7777d001.js"
   ]
 }
