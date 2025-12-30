@@ -84,12 +84,12 @@ var point=0
 <h1 id="nameoption">CREATE</h1>
 <div id="option">
 
-  {/* <div id="dd" className="div">
+  <div id="dd" className="div">
     <img src={qrphoto} alt="" />
-    <p id="p"> Fake massige </p><br />
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe nihil a corrupti tempore, nesciunt dignissimos porro esse quia harum.</p>
-    <button  id="oop" onClick={()=> Fm('Fakemassige')}>Open</button> 
-  </div> */}
+    <p id="p"> QR </p><br />
+    <p>Lorem ignissimos porro esse quia harum.</p>
+    <button  id="oop" onClick={()=> Fm('QR')}>Open</button> 
+  </div>
   
   <div id="dd" className="div">
     <img src={cvphoto} alt="" />
@@ -100,12 +100,7 @@ var point=0
 
 
   
-  <div id="dd" className="div">
-    <img src={qrphoto} alt="" />
-    <p id="p"> QR cod </p><br />
-    <p>Lorem ipsum dolor sit  a corrro esse quia harum.</p>
-    <button  id="oop" >Closed</button> 
-  </div>
+
   
 
 
@@ -117,7 +112,7 @@ var point=0
     <img src={gamephoto} alt="" />
     <p id="p"> Challenge Game</p><br />
     <p>Lorem ! Sequi, magni repellenaerat necessitatibus non.</p>
-    <button  id="oop" >Closed</button> 
+    <button  id="oop">Closed</button> 
   </div>
 
 

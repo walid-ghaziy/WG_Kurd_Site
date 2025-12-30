@@ -8,6 +8,17 @@ import p3 from './Screenshot 2025-12-30 231904.png'
 import p4 from './Screenshot 2025-12-30 232025.png'
 import p5 from './Screenshot 2025-12-30 232109.png'
 import minu from './meni.jpg'
+
+import pr1 from './pr/admin.PNG'
+import pr2 from './pr/login.PNG'
+import pr3 from './pr/singin.PNG'
+import pr4 from './pr/info.PNG'
+import pr5 from './pr/listtable.PNG'
+import pr6 from './pr/listtop.PNG'
+import pr7 from './pr/table.PNG'
+import pr8 from './pr/top.PNG'
+import pr9 from './pr/massigeuser.PNG'
+import pr10 from './pr/massigradmin.PNG'
 const Mycv = () => {
   return (
     <>
@@ -181,6 +192,8 @@ const Mycv = () => {
    <video style={{width:"100%",margin:"0px"}} height={200} src={video} controls loop></video>
 
           </div>
+
+
           <div className="project-card">
             <h3>Movie</h3>
             <p>
@@ -210,6 +223,49 @@ const Mycv = () => {
             </a><br /><br />
    <video  height={200} style={{width:"100%",margin:"0px"}} src={movie} controls loop></video>
 
+          </div>
+
+
+           <div className="project-card">
+            <h3>POS</h3>
+            <p>
+             For POS
+            </p>
+            <p>
+              حسابات و روزئن كاركرنئ ئن معمه له كئ 
+            </p>
+            <p>
+
+              <strong>Tech:</strong> HTML,CSS,PHP,MySQL
+            </p>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://github.com/walid-ghaziy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a><br /><br />
+<div className="imcv">
+              <img src={pr1} alt="" width={150} height={300}/>
+              <img src={pr2} alt="" width={150} height={300}/>
+              <img src={pr3} alt="" width={150} height={300}/>
+              <img src={pr4} alt="" width={150} height={300}/>
+              <img src={pr5} alt="" width={150} height={300}/>
+              <img src={pr5} alt="" width={150} height={300}/>
+              <img src={pr6} alt="" width={150} height={300}/>
+              <img src={pr7} alt="" width={150} height={300}/>
+              <img src={pr8} alt="" width={150} height={300}/>
+              <img src={pr9} alt="" width={150} height={300}/>
+              <img src={pr10} alt="" width={150} height={300}/>
+            </div>
           </div>
 
           <div className="project-card">

@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#h1qr{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+h3{
+  margin-left: 5px;
+}
+
+.boxqr{
+    position: relative;
+    width: 90%;
+   height:100% ;
+    left: 5%;
+    background-color: rgb(163, 163, 163,0.1);
+overflow-x: hidden;
+    
+}
+.loding{
+    position: relative;
+   width: 150px;
+    left: 40%;
+    margin-top: 15px;
+}
+.qrsubmit{
+position: relative;
+width: 70%;
+left: 15%;
+border: none;
+padding: 15px;
+border-radius: 8px;
+margin-top: 10px;
+margin-bottom: 25px;
+background-color: rgb(2, 2, 62);
+color: aliceblue;
+}
+
+.urlinput{
+    position: relative;
+    width: 90%;
+    left:3% ;
+    margin-top: 20px;
+    border: none;
+    padding: 9px;
+    font-size: 17px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    color: black;
+}
+.photoqr{
+position: relative;
+width: 100%;
+height: 100%;
+margin-bottom: 30px;
+}
+.qrim{
+position: relative;
+width: 100%;
+left: 2%;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+.dowim{
+position: relative;
+width: 150px;
+left: 40%;
+
+}
+.qrdiv{
+    position: relative;
+    left: 0%;
+     width: 100%;
+     height: auto;
+     color: rgba(0, 0, 0, 0);
+ }
+.dow{
+position: relative;
+width: 50px;
+border: none;
+height: 40px;
+left: 57%;
+margin: 0px;
+background-color: green;
+border-radius: 10px;
+font-size: 25px;
+color: aliceblue;
+font-weight: 900;
+margin-bottom: 60px;
+top: -15px;
+}
+.lodingicon{
+    position: relative;
+    width: 50px;
+    border: none;
+    height: 40px;
+    left: 57%;
+    margin: 0px;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 900;
+    margin-bottom: 60px;
+    top: -15px;
+}
+.lodingicon::after{
+content: '';
+position: absolute;
+left: 30%;
+top: 25%;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+border: 3px solid rgb(255, 255, 255);
+border-top: 3px solid rgb(0, 0, 0);
+animation: loding infinite 0.1s;
+}
+@keyframes loding {
+    0%{
+background-color: rgb(23, 0, 128);
+    }100%{
+        rotate: 360deg;
+    }
+}
+.dow::after{
+    content: "";
+    position: absolute;
+    width: 4px;
+    border-radius: 0px 0px 10px 10px;
+    top: 50%;
+    left: 55%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    rotate: -140deg;
+    transition: 1s;
+}
+.dow::before{
+content: "";
+position: absolute;
+width: 4px;
+border-radius: 0px 0px 10px 10px;
+top: 50%;
+left: 36%;
+height: 40%;
+background-color: rgb(255, 255, 255);
+rotate: 140deg;
+transition: 1s;
+}
+@media screen and   (max-width : 600px){
+
+    .boxqr{
+        position: relative;
+        width: 100%;
+        height:100%;
+        left: 0%;
+        background-color: rgb(163, 163, 163,0.1);
+        overflow-x: hidden;
+    }
+    .qrim{
+        position: relative;
+        width: 100%;
+        left: 0%;
+        margin-top: 5px;
+        margin-bottom: 0px;
+  
+    }
+.dowim{
+position: relative;
+width: 150px;
+left: 25%;
+top: 0px;
+font-size: 13px;
+}
+.dow{
+position: relative;
+width: 30px;
+border: none;
+height: 25px;
+left: 70%;
+margin: 0px;
+background-color: green;
+border-radius: 8px;
+font-size: 16px;
+color: aliceblue;
+font-weight: 900;
+margin-bottom: 60px;
+top: 0px;
+}
+.lodingicon{
+    position: relative;
+    width: 30px;
+    border: none;
+    height: 25px;
+    left: 70%;
+    margin: 0px;
+    background-color: green;
+    border-radius: 8px;
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 900;
+    margin-bottom: 60px;
+    top: -2px;
+}
+.qrdiv{
+   position: relative;
+   left: 20%;
+    width: 210px;
+    height: auto;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0);
+  
+}
+}
+
+#p{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dow::after,.dow::before{
+    width: 2px;
+}
+.dow::after{
+left: 60%;
+}
+.lodingicon::after{
+    content: '';
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    border-top: 3px solid rgb(0, 0, 0);
+    animation: loding infinite 1s;
+    }
+    @keyframes loding {
+        0%{
+    background-color: rgb(23, 0, 128);
+        }100%{
+            rotate: 360deg;
+        }
+    }
+    .boxqr h3{
+        font-family:inherit;
+    }

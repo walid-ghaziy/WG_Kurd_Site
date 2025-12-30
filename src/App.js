@@ -17,6 +17,7 @@ import TT from './senddata/T';
 import { useRef, useState } from 'react';
 import Start from './game/start'
 import Mycv from './MyCv/Mycv';
+import QR from './QR/QR';
 
 
 function App() {
@@ -71,7 +72,8 @@ const [numberenu,setnumberenu]=useState(1)
   <Route path='WG_Kurd_Site/EysTest' element={<Aic/>}/>
   <Route path='WG_Kurd_Site/CV' element={<Sendcv/>}/>
   <Route path='WG_Kurd_Site/fifa' element={<Start/>}/>
-  <Route path='T' element={<TT/>}/>
+  <Route path='WG_Kurd_Site/QR' element={<QR/>}/>
+  <Route path='WG_Kurd_Site/Game' element={<Start/>}/>
 </Routes>
    
  
