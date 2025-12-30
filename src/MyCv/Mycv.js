@@ -199,16 +199,16 @@ const Mycv = () => {
         <h2>Contact</h2>
 
         <p>
-          Email:{" "}
-          <a href="mailto:yourname@email.com">
-            yourname@email.com
+          Instagram:{" "}
+          <a href="https://www.instagram.com/walid_ghaziy/?hl=en">
+           Instagram
           </a>
         </p>
 
         <p>
           GitHub:{" "}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/walid-ghaziy"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -216,16 +216,7 @@ const Mycv = () => {
           </a>
         </p>
 
-        <p>
-          LinkedIn:{" "}
-          <a
-            href="https://linkedin.com/in/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            linkedin.com/in/yourusername
-          </a>
-        </p>
+       
       </section>
     </>
   );
