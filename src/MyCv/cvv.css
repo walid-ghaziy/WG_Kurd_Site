@@ -1,0 +1,161 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  line-height: 1.6;
+}
+
+/* Hero / CV Header */
+.hero {
+  background-color: #1f2833;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.profile-pic {
+  position: relative;
+  top: 0%;
+  width: 100%;
+  height: 450px;
+  border-bottom: 4px solid #4565A2;
+  object-fit: cover;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 5px;
+}
+
+.hero p {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+/* Sections */
+.section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #1f2833;
+  border-radius: 8px;
+}
+
+/* Section Titles */
+.section h2 {
+  color: white;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #226461;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background-color: #316B88;
+  color: #FFFFFF;
+  padding: 8px 12px;
+  width: auto;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Projects */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #0b0c10;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #316B88;
+}
+
+.project-card h3 {
+  color: #316B88;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  color: #316B88;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  color: #66fcf1;
+}
+
+/* Contact */
+#contact a {
+  color: #316B88;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #66fcf1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero{
+    overflow: hidden;
+  }
+ .hero .profile-pic {
+  position: relative;
+  top: 0%;
+  width: 100%;
+  height: 300px;
+  border-bottom: 4px solid #4565A2;
+  object-fit: cover;
+  overflow: hidden;
+}
+.slash{
+  position: relative;
+  width: 500px;
+  height: 130px;
+  background-color: #1f2833;
+  bottom:60px ;
+  rotate: 14deg;
+  left: -70px;
+}
+.skill{
+  width: auto;
+}
+  .hero h1 {
+    font-size: 2em;
+  }
+  
+  .hero p {
+    font-size: 1.1em;
+  }
+  
+  .projects-container {
+    flex-direction: column;
+  }
+
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+}

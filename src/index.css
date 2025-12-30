@@ -84,9 +84,10 @@ overflow-x: scroll;
  
  }
  #imm{
- width: 150px;
+ width: 50px;
  position: absolute;
  right: 10px;
+ top: 10px;
  
  }
  #buttonmenuopen{
@@ -376,19 +377,6 @@ z-index: 1;
     left: 10%;
     top: 10%;
   }
- #heder
- {
-  z-index: 2;
-  width: 100%;
-  background-color: rgba(246, 7, 7, 0);
-  height: 160px;
-  color: rgb(255, 255, 255);
-  margin: 0px;
-  box-shadow: 0px 0px 20px 5px black;
-  position: relative;
-  border-radius: 0px 0px 4px 4px;
-backdrop-filter: blur(20px);
-  }
 
 .menunone{
 display: none;
@@ -485,23 +473,25 @@ background-color: rgba(1, 180, 200, 0.99);
   }
 
    
- #heder h1{
+ #heder i{
   
   width: 200px;
-font-size: 40px;
+font-size: 30px;
 margin: 0px;
 position: relative;
-left: 5px;
+left: 10px;
+top: 3px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#heder h2{
-  
-  width: 200px;
-font-size: 25px;
-margin: 0px;
-position: relative;
-left: 15px;
+#heder{
+background-color: rgb(2, 5, 30);
+  width: 100%;
+  border-bottom: solid 1px white;
+  height: 100px;
 }
-
+#imm{
+  color: aliceblue;
+}
 legend{
 text-align: center;
 }
@@ -515,7 +505,7 @@ text-align: center;
   padding-top: 5px;
   border: 1px solid white;
   border-radius: 40px;
-  margin-top: -5px;
+  margin-top: 5px;
   
 }
 .snap{
@@ -544,11 +534,20 @@ rotate: 0deg;
 
   }
 }
+#nameoption{
+  position: relative;
+  top: 50px;
+}
 
 #all{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: rgb(2, 15, 47);
+  color: aliceblue;
+}
+#alll{
+   background-color: rgb(2, 15, 47);
 }
 
 #option{
@@ -556,10 +555,15 @@ rotate: 0deg;
 width: 100%;
   height: auto;
  border: 1px solid rgba(0, 0, 0, 0.277);
- background-color: rgb(198, 196, 194);
+   background-color: rgb(2, 15, 47);
   display: flex;
 overflow-x: scroll;
+overflow-y: hidden;
 border-radius: 5px;
+padding-bottom: 30px;
+img{
+height: 60%;
+}
  }
  #boton{
   width: 100%;
@@ -574,7 +578,7 @@ border-radius: 5px;
   left: 1%;
   width: 45%;
   background-color: rgb(12, 13, 17);
-  height: 230px;
+  height: 290px;
 }
 
 .back{
