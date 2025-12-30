@@ -40,6 +40,14 @@ body {
   font-size: 1.3em;
   margin-bottom: 10px;
 }
+.imcv{
+  width: auto;
+  overflow-x: scroll;
+  display: flex;
+  img{
+    margin: 15px;
+  }
+}
 
 /* Sections */
 .section {

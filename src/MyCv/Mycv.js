@@ -1,5 +1,13 @@
 import profilePic from "./photo_2025-12-30_18-30-37.jpg"; // adjust path
 import './cvv.css'
+import video from './work.mp4'
+import movie from './movie.mp4'
+import p1 from './Screenshot 2025-12-30 231725.png'
+import p2 from './Screenshot 2025-12-30 231807.png'
+import p3 from './Screenshot 2025-12-30 231904.png'
+import p4 from './Screenshot 2025-12-30 232025.png'
+import p5 from './Screenshot 2025-12-30 232109.png'
+import minu from './meni.jpg'
 const Mycv = () => {
   return (
     <>
@@ -18,8 +26,8 @@ const Mycv = () => {
         <h2>About Me</h2>
 
         <p>
-          • I am an IT Technical professional with 3 years of experience and
-          currently studying in the Information Technology Department at DPU. I
+          • <b style={{color:"green"}}>Im Walid My Birth (2000) Live In Mserek</b> And I am an IT Technical professional with 3 years of experience and
+          currently studying in the <b style={{color:"green"}}>Information Technology Department at DPU</b>. I
           have strong hands-on experience in computer systems, networking, and IT
           administration, along with solid programming and development skills.
         </p>
@@ -142,16 +150,21 @@ const Mycv = () => {
         <h2>Projects</h2>
 
         <div className="projects-container">
+
           <div className="project-card">
-            <h3>Task Management System</h3>
+            <h3>WG Job</h3>
             <p>
               A full-stack application to manage tasks with authentication.
             </p>
             <p>
-              <strong>Tech:</strong> React, Node.js, PostgreSQL
+              بو به لاف كرن و ديتنا كاري ب شئوه كئ بساناهي
+            </p>
+            <p>
+
+              <strong>Tech:</strong> React, Node.js, MySQL
             </p>
             <a
-              href="https://github.com/yourusername/task-manager"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -159,24 +172,59 @@ const Mycv = () => {
             </a>{" "}
             |{" "}
             <a
-              href="https://your-demo-link.com"
+              href="https://github.com/walid-ghaziy"
               target="_blank"
               rel="noopener noreferrer"
             >
               Live Demo
             </a>
+   <video width={500} height={200} src={video} controls loop></video>
+
+          </div>
+          <div className="project-card">
+            <h3>Movie</h3>
+            <p>
+             For See Movie
+            </p>
+            <p>
+              بو به لاف كرنا فلم و زنجيران
+            </p>
+            <p>
+
+              <strong>Tech:</strong> HTML,CSS,Javascipt
+            </p>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://github.com/walid-ghaziy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a><br /><br />
+   <video width={500} height={200} src={movie} controls loop></video>
+
           </div>
 
           <div className="project-card">
-            <h3>E-commerce Website</h3>
+            <h3>By & Sell (Home,Villa,Hotel .....)</h3>
             <p>
               An online store with product management and payment integration.
+            </p>
+            <p>
+كرين و فروتن و كرئ كرنا خاني و هوتيل و فلان 
             </p>
             <p>
               <strong>Tech:</strong> React, Node.js, SQL
             </p>
             <a
-              href="https://github.com/yourusername/ecommerce"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -184,15 +232,62 @@ const Mycv = () => {
             </a>{" "}
             |{" "}
             <a
-              href="https://your-ecommerce-demo.com"
+              href="https://github.com/walid-ghaziy"
               target="_blank"
               rel="noopener noreferrer"
             >
               Live Demo
-            </a>
+            </a><br /><br />
+            <div className="imcv">
+              <img src={p1} alt="" width={150}/>
+              <img src={p2} alt="" width={150}/>
+              <img src={p3} alt="" width={150}/>
+              <img src={p4} alt="" width={150}/>
+              <img src={p5} alt="" width={150}/>
+            </div>
           </div>
+
+          <div className="project-card">
+            <h3>Minu</h3>
+            <p>
+              An online Minu For Restorant.
+            </p>
+            <p>
+برئكا موبايلي لسه ر مئزئ خارنئ داخازبكه
+            </p>
+            <p>
+              <strong>Tech:</strong> HTML , CSS و Nodejs
+            </p>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://github.com/walid-ghaziy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a><br /><br />
+            <div className="imcv">
+              <img src={minu} alt="" style={{width:"100%",height:"auto",margin:"0px"}}/>
+
+            </div>
+          </div>
+
+
+
+
         </div>
       </section>
+
+
+
+
 
       {/* Contact Section */}
       <section id="contact" className="section">
@@ -212,7 +307,7 @@ const Mycv = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            github.com/yourusername
+           GitHub
           </a>
         </p>
 
