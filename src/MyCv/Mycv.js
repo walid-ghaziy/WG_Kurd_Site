@@ -178,7 +178,7 @@ const Mycv = () => {
             >
               Live Demo
             </a>
-   <video width={500} height={200} src={video} controls loop></video>
+   <video style={{width:"100%",margin:"0px"}} height={200} src={video} controls loop></video>
 
           </div>
           <div className="project-card">
@@ -208,7 +208,7 @@ const Mycv = () => {
             >
               Live Demo
             </a><br /><br />
-   <video width={500} height={200} src={movie} controls loop></video>
+   <video  height={200} style={{width:"100%",margin:"0px"}} src={movie} controls loop></video>
 
           </div>
 
