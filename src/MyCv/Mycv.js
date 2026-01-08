@@ -37,19 +37,20 @@ const Mycv = () => {
         <h2>About Me</h2>
 
         <p>
-          • <b style={{color:"green"}}>Im Walid My Birth (2000) Live In Mserek</b> And I am an IT Technical professional with 3 years of experience and
+          • <b style={{color:"green"}}>Im Walid My Birth (2000) Live In Mserek</b> 
+          And I am an IT Technical professional with 3 years of experience and
           currently studying in the <b style={{color:"green"}}>Information Technology Department at DPU</b>. I
           have strong hands-on experience in computer systems, networking, and IT
           administration, along with solid programming and development skills.
         </p>
-
+<br/>
         <p>
           • I am a Full-Stack Web Developer with experience in React, Node.js,
           PHP, and SQL databases. I have developed and managed web and
           mobile-related projects, and I am familiar with GitHub, Git, and Visual
           Studio Code.
         </p>
-
+<br/>
         <p>
           • I also have knowledge in Cybersecurity and Ethical Hacking, including
           website scanning, network scanning, OSINT, phishing analysis, and basic
@@ -117,6 +118,7 @@ const Mycv = () => {
           <span className="skill">JavaScript</span>
           <span className="skill">C#</span>
           <span className="skill">Python</span>
+             <span className="skill">PHP</span>
         </div>
       </section>
 
