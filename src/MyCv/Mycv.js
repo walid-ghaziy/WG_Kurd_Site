@@ -131,7 +131,7 @@ const Mycv = () => {
           <span className="skill">Vercel (Frontend)</span>
           <span className="skill">Railway (Backend)</span>
           <span className="skill">APIs</span>
-          <span className="skill">SQL</span>
+          <span className="skill">MySQL</span>
         </div>
       </section>
 
