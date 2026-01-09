@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WG_Kurd_Site/static/css/main.26fcc956.css",
-    "main.js": "/WG_Kurd_Site/static/js/main.6cdd930e.js",
+    "main.css": "/WG_Kurd_Site/static/css/main.4a3f86c1.css",
+    "main.js": "/WG_Kurd_Site/static/js/main.108cf6ad.js",
     "static/media/movie.mp4": "/WG_Kurd_Site/static/media/movie.4b37e58805cb8a3e5238.mp4",
     "static/media/work.mp4": "/WG_Kurd_Site/static/media/work.a3f5b961948c3f270804.mp4",
     "static/media/Screenshot 2025-12-30 231725.png": "/WG_Kurd_Site/static/media/Screenshot 2025-12-30 231725.1f0fa9edd0d787841378.png",
@@ -16,6 +16,7 @@
     "static/media/listtop.PNG": "/WG_Kurd_Site/static/media/listtop.27af52d73708e1ede9ad.PNG",
     "static/media/w2.png": "/WG_Kurd_Site/static/media/w2.b3a75675504840979127.png",
     "static/media/test1.png": "/WG_Kurd_Site/static/media/test1.563a5efb35cb5529ab46.png",
+    "static/media/codigo-qr-gratis.jpg": "/WG_Kurd_Site/static/media/codigo-qr-gratis.3d2ba8c86b2136225a08.jpg",
     "static/media/test4.png": "/WG_Kurd_Site/static/media/test4.268996b2cac1042b3885.png",
     "static/media/admin.PNG": "/WG_Kurd_Site/static/media/admin.42ccb95420528e715008.PNG",
     "static/media/test8.jpg": "/WG_Kurd_Site/static/media/test8.fd0cbaa0530bf5b79c24.jpg",
@@ -26,17 +27,18 @@
     "static/media/info.PNG": "/WG_Kurd_Site/static/media/info.a3567ad49f5a6f251513.PNG",
     "static/media/massigeuser.PNG": "/WG_Kurd_Site/static/media/massigeuser.1ea8937a7dcd09c1da6f.PNG",
     "static/media/table.PNG": "/WG_Kurd_Site/static/media/table.f8ed1c4d4ed2b8a7c56d.PNG",
-    "static/media/wwlogo.png": "/WG_Kurd_Site/static/media/wwlogo.f5294a0e333666287245.png",
     "static/media/photo_2025-12-30_18-30-37.jpg": "/WG_Kurd_Site/static/media/photo_2025-12-30_18-30-37.f3aa6b50135faf548f0f.jpg",
     "static/media/snapchat-logo-icon-social-media-icon-free-png.webp": "/WG_Kurd_Site/static/media/snapchat-logo-icon-social-media-icon-free-png.80a278df914176795815.webp",
+    "static/media/wlogo.png": "/WG_Kurd_Site/static/media/wlogo.6090d36c84693cb351bf.png",
     "static/media/massigradmin.PNG": "/WG_Kurd_Site/static/media/massigradmin.9d7815631ceba7c4f573.PNG",
+    "static/media/cv.png": "/WG_Kurd_Site/static/media/cv.901703fc76bc088b47e5.png",
     "static/media/Screenshot 2025-12-30 232109.png": "/WG_Kurd_Site/static/media/Screenshot 2025-12-30 232109.34bcccacc7e02e4d172a.png",
+    "static/media/Screenshot 2024-03-07 024611.png": "/WG_Kurd_Site/static/media/Screenshot 2024-03-07 024611.8127240b8fdb45f89a1d.png",
     "static/media/test5.jpg": "/WG_Kurd_Site/static/media/test5.a88922a71fc51786f331.jpg",
     "static/media/jpg": "/WG_Kurd_Site/static/media/8ab21b1edaa6d6d3405af14cd018a91b.036103d43ce19bc84241.jpg",
+    "static/media/OIP.jpeg": "/WG_Kurd_Site/static/media/OIP.879313878b0f62ee8944.jpeg",
     "static/media/test6.jpg": "/WG_Kurd_Site/static/media/test6.b1690eb646b3a1f9289a.jpg",
-    "static/media/cv-logo-design-initial-cv-letter-logo-design-monogram-design-pro-vector.jpg": "/WG_Kurd_Site/static/media/cv-logo-design-initial-cv-letter-logo-design-monogram-design-pro-vector.a9e6c93d66e42f51e2b6.jpg",
     "static/media/test2.jpg": "/WG_Kurd_Site/static/media/test2.7e0c23c34de00b908477.jpg",
-    "static/media/OIP.png": "/WG_Kurd_Site/static/media/OIP.8e799260b6caf04b59d6.png",
     "static/media/IMG_0440.PNG": "/WG_Kurd_Site/static/media/IMG_0440.c66888d27c352c3128a0.PNG",
     "static/media/IMG_0443.PNG": "/WG_Kurd_Site/static/media/IMG_0443.a991195a28c5df11e82e.PNG",
     "static/media/IMG_0442.PNG": "/WG_Kurd_Site/static/media/IMG_0442.b4c954775cf3d8ad5f61.PNG",
@@ -44,11 +46,11 @@
     "static/media/IMG_0444.PNG": "/WG_Kurd_Site/static/media/IMG_0444.0024e2fecd455fb6d406.PNG",
     "static/media/IMG_0439.PNG": "/WG_Kurd_Site/static/media/IMG_0439.7d0d22c94460b9cfba74.PNG",
     "index.html": "/WG_Kurd_Site/index.html",
-    "main.26fcc956.css.map": "/WG_Kurd_Site/static/css/main.26fcc956.css.map",
-    "main.6cdd930e.js.map": "/WG_Kurd_Site/static/js/main.6cdd930e.js.map"
+    "main.4a3f86c1.css.map": "/WG_Kurd_Site/static/css/main.4a3f86c1.css.map",
+    "main.108cf6ad.js.map": "/WG_Kurd_Site/static/js/main.108cf6ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.26fcc956.css",
-    "static/js/main.6cdd930e.js"
+    "static/css/main.4a3f86c1.css",
+    "static/js/main.108cf6ad.js"
   ]
 }
