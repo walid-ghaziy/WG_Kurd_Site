@@ -26,12 +26,49 @@ const Mycv = () => {
       <header className="hero">
         <img src={profilePic} alt="Walid Ghazi" className="profile-pic" />
         <div className="slash"></div>
-        <h1>Walid Ghazi</h1>
+        <h1 id="name">Walid Ghazi Ali</h1>
         <p>Full-Stack Web Developer</p>
         <p>Cybersecurity EH</p>
         <p>IT Technical</p>
       </header>
+<section id="contact" className="section">
+        <h2>Contact</h2>
 
+        <p>
+          Instagram:{" "}
+          <a href="https://www.instagram.com/walid_ghaziy/?hl=en">
+           Instagram
+          </a>
+        </p>
+
+ <p>
+          WhatsApp:{" "}
+          <a
+            href="https://api.whatsapp.com/send/?phone=9647515382906&text&type=phone_number&app_absent=0&wame_ctl=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           WhatsApp
+          </a>
+        </p>
+
+
+        <p>
+          GitHub:{" "}
+          <a
+            href="https://github.com/walid-ghaziy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           GitHub
+          </a>
+        </p>
+
+
+
+ 
+       
+      </section>
       {/* About Section */}
       <section id="about" className="section">
         <h2>About Me</h2>
@@ -348,29 +385,7 @@ const Mycv = () => {
 
 
       {/* Contact Section */}
-      <section id="contact" className="section">
-        <h2>Contact</h2>
-
-        <p>
-          Instagram:{" "}
-          <a href="https://www.instagram.com/walid_ghaziy/?hl=en">
-           Instagram
-          </a>
-        </p>
-
-        <p>
-          GitHub:{" "}
-          <a
-            href="https://github.com/walid-ghaziy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-           GitHub
-          </a>
-        </p>
-
-       
-      </section>
+      
     </>
   );
 };
