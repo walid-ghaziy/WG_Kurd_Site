@@ -2,14 +2,9 @@ import { useRef, useState } from 'react'
 import html2canvas from 'html2canvas'
 import './cv.css'
 
-
-
 function Vewcv({skill,skill2,skill3,skill4,skill5,skill6}){
-
  const imgref = useRef(null)
 const[downlods,setdownlods]=useState(<i class="gg-arrow-down-o"></i>)
-
-
  function downlod(){
 setdownlods(<i class="gg-spinner"></i>)
 setTimeout(() => {
@@ -19,24 +14,14 @@ setdownlods(<i class="gg-arrow-down-o"></i>)
     linkk.href = canvas.toDataURL('image/png')
    linkk.download = 'CV-Free-WG Site'
    linkk.click()
-  })
-}, 4000);
-}
+  })}, 4000);}
 
 if (downlods == 'save') {
   setTimeout(() => {
     setdownlods('DOWENLOD')
-  }, 3000);
-
-  }
-
-
+  }, 3000);}
     return(
-
 <div className='al'>
-
-
-
 <div className="contener" ref={imgref}>
 
  <div className="top-taser"></div>  
@@ -59,8 +44,8 @@ if (downlods == 'save') {
    <ul>
    {skill.map((data)=>{return(  
    <>
- <i id='ic' className="gg-phone"></i> <li key={data.id} >  <span>{data.tel}</span></li><br />
- <i id='ic' className="gg-mail"></i><li key={data.id}><span>{data.email}</span></li>
+<span>PHONE</span><li key={data.id} >  <span id='telcv'>{data.tel}</span></li><br />
+ <span>EMAIL</span><li key={data.id}><span id='emalcv'>{data.email}</span></li>
    </> 
  )})}
 
@@ -105,11 +90,11 @@ if (downlods == 'save') {
 
 <div className='language'>
       <button>LANGUAGE</button><br />
-    {skill.map((data)=>{return(
+    {/* {skill.map((data)=>{return(
     <>
      <span id='la' key={data.id}>زمانئ دايكئ : {data.language}</span>
     </>
-   )})}
+   )})} */}
       <ul>
        {skill4.map((data)=>{
         return(

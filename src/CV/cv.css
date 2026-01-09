@@ -71,15 +71,14 @@
   align-items: center;
   border: 1px solid rgb(10, 6, 6);
   margin-bottom: 0px;
-overflow: hidden;
+overflow: scroll;
   }
   .photo{
   position: relative;
-  top: -15%;
-  left: -2%;
-  width: 115px;
-  height: 150px;
-  border-radius: 90px;
+  top: 0%;
+  left: 0%;
+  width: 170px;
+  height: 170px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -162,7 +161,7 @@ background-size: cover;
     margin-top: 1px;
     list-style-type: none;
     position: relative;
-    left: 15%;
+    left: 1%;
     width: 200px;
   }
   .call ul li span{
@@ -170,6 +169,10 @@ background-size: cover;
     left: 4px;
     font-size: 8px;
    
+  }
+  #alsendcv{
+    margin-top: 200px;
+    
   }
   .language{
  
@@ -395,13 +398,14 @@ height: auto;
 
 }
 .datacv div{
-border: 3px solid rgba(0, 0, 0, 0.296);
+border: 1px solid rgba(0, 0, 0, 0);
 margin-top: 80px;
 padding: 20px;
-border-radius: 4px;
-background-color: rgba(196, 195, 195, 0.87);
+border-radius: 2px;
+background-color: rgba(255, 255, 255, 0.521);
 display: block;
 overflow: hidden;
+box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.378);
   }
 
 .datacv label{
@@ -439,9 +443,9 @@ margin-bottom: 5%;
     width: 250px;
   }
 .datacv input{
-border: none;
+border: 0.5px solid rgba(0, 0, 0, 0.327);
 font-size: 16px;
-background-color: rgb(225, 225, 225);
+background-color: rgb(255, 255, 255);
 color: black;
 position: relative;
 display: block;
@@ -450,7 +454,7 @@ top: 30%;
 left: 2%;
 margin-top:20px;
 padding: 10px;
-border-radius: 6px;
+border-radius: 8px;
 }
 .datacv select{
   border: none;
@@ -561,7 +565,10 @@ border-radius: 6px;
     color: aliceblue;
   }
   #input12{
+    position: relative;
     width: 70%;
+    left: 12.5%;
+    
   }
   #eror{
   
@@ -716,3 +723,7 @@ box-shadow: 0px 0px 500px 120px black;
   0% { transform: rotate(0deg) }
   to { transform: rotate(359deg) }
  } 
+
+ #telcv,#emalcv{
+  font-size: 10px;
+ }

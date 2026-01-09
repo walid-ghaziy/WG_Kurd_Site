@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react"
 import Test from "./test1"
-import '../index.css'
 import insta from "./Instagram_logo_2016.svg.webp"
 import snap from "./snapchat-logo-icon-social-media-icon-free-png.webp"
 import im from "./IMG_0427.PNG"
@@ -14,16 +13,16 @@ import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
 import { createBrowserRouter } from "react-router-dom"
 import eysphoto from './Screenshot 2024-02-01 193406.png'
-import cvphoto from './cv-logo-design-initial-cv-letter-logo-design-monogram-design-pro-vector.jpg'
-import gamephoto from './OIP.png'
+import cvphoto from './cv.png'
+import gamephoto from './Screenshot 2024-03-07 024611.png'
+import Foter from "./Foter"
+import p1 from './IMG_0427.PNG'
+import p2 from './cv.png'
+import p3 from './Screenshot 2024-03-07 024611.png'
+import qrphoto from '../QR/codigo-qr-gratis.jpg'
+import sozear from "../project/sozear"
+import Logosahat from '../project/img/OIP.jpeg'
 import Mycv from "../MyCv/Mycv"
-// import Foter from "./Foter"
-// import p1 from './IMG_0427.PNG'
-// import p2 from './cv.png'
-// import p3 from './Screenshot 2024-02-01 193406.png'
-import qrphoto from './qr.png'
-// import sozear from "../project/sozear"
-import Logosahat from './Project.png'
 
 const Enfo=()=>{
 
@@ -35,40 +34,37 @@ const QR = useNavigate()
 const sozear = useNavigate()
 const Fm = useNavigate()
 
-// const timereklam =[p1,p2,p3]
+const timereklam =[p1,p2,p3]
 const[vewreklam,setvewreklam]=useState()
 
 var point=0
-// setInterval(() => {
-// setTimeout(() => {
-//   setvewreklam(p1)
-// }, 1000);
-// setTimeout(() => {
-//   setvewreklam(p2)
-// }, 2000);
-// setTimeout(() => {
-//   setvewreklam(p3)
-// }, 4000);
+setInterval(() => {
+setTimeout(() => {
+  setvewreklam(p1)
+}, 1000);
+setTimeout(() => {
+  setvewreklam(p2)
+}, 2000);
+setTimeout(() => {
+  setvewreklam(p3)
+}, 4000);
 
 
-// }, 4000);
+}, 4000);
 
     return(
     
-      <div id="all" >
-  
-
+<div id="all" >
+<Mycv/>
 {/* <div className="reklam">
   <img src={vewreklam} alt="" />
 </div> */}
 
-
-<h1 id="nameoption">BODY</h1>
 <div id="option">
     
    <div id="dd" className="div">
     <img src={im} alt="" />
-    <p id="p">  دیارکرنا رێک و پێکیا بەژنێ و کەلەخی لديف ستانداردئ جيهاني</p>
+    <p id="p">  دیارکرنا رێک و پێکیا بەژنێ و کەلەخی لديف ستانداردئ جيهاني لسه ر ته بئتفيه بتنئ درئزاهيا  خو و كئشا له شئ خو بزاني  دئ زاني تو ل ج ئاستئ قهله ويئ يي</p>
     <button  id="oop" onClick={()=> info('yourinfo')}>Open</button> 
 </div>
 {/* ................................................................................ */}
@@ -84,24 +80,25 @@ var point=0
 <h1 id="nameoption">CREATE</h1>
 <div id="option">
 
-  <div id="dd" className="div">
+
+ <div id="dd" className="div">
     <img src={qrphoto} alt="" />
-    <p id="p"> QR </p><br />
-    <p>Lorem ignissimos porro esse quia harum.</p>
-    <button  id="oop" onClick={()=> Fm('QR')}>Open</button> 
+    <p id="p"> QR cod </p><br />
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe nihil a corrupti tempore, nesciunt dignissimos porro esse quia harum.</p>
+      <button  id="oop" onClick={()=> CV('QR')}>Open</button> 
+
   </div>
+  
   
   <div id="dd" className="div">
     <img src={cvphoto} alt="" />
     <p id="p"> Create CV </p><br />
-    <p> saepe nihil ant dignissimos porro esse quia harum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe nihil a corrupti tempore, nesciunt dignissimos porro esse quia harum.</p>
     <button  id="oop" onClick={()=> CV('cv')}>Open</button> 
   </div>
 
 
-  
 
-  
 
 
 </div>
@@ -111,8 +108,8 @@ var point=0
     <div id="dd" className="div">
     <img src={gamephoto} alt="" />
     <p id="p"> Challenge Game</p><br />
-    <p>Lorem ! Sequi, magni repellenaerat necessitatibus non.</p>
-    <button  id="oop">Closed</button> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, enim quia! Sequi, magni repellendus. Quasi iste reiciendis quaerat necessitatibus non.</p>
+    <button  id="oop" onClick={()=> Game('Game')}>Open</button> 
   </div>
 
 
@@ -123,7 +120,7 @@ var point=0
     <div id="dd" className="div">
     <img src={Logosahat} alt="" />
     <p id="p"> bissnes project for sozear compane</p>
-    <button  id="oop"  >Closed now</button> 
+    <button  id="oop" onClick={()=>sozear('Sozear')} >Open</button> 
   </div>
 
 
@@ -136,8 +133,8 @@ var point=0
 
 </div>
 
-{/* 
- <Foter/> */}
+
+ <Foter/>
 
 
 </div>

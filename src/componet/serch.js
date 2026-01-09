@@ -12,14 +12,9 @@ export default function Serch() {
  const serchinner=()=>{
     return(
 <div id="box">
-        
+
       <input type="username" placeholder="ناف" onChange={(e)=>{setname(e)}}/>
-      <input id="datee" type="date" placeholder='ته مه ني ته جه نده' onChange={(e)=>{setstaman(e)}} /><br />
-      <select name="" id="" onChange={(e)=>{setselect1(e)}}>
-      <option value="">ره گه ز</option>
-      <option value="">نئر</option>
-      <option value="">مئ</option>
-      </select>
+  
       <b id="er">{eror}</b>
       <input type="submit" id="sub" value={'Log In'} onClick={displaytest}  />
 
@@ -32,7 +27,7 @@ export default function Serch() {
   const[serchopen,setserchopen]=useState(true)
   
 function displaytest(){
-  if( select1 !=null && taman !=null && name!=null){
+  if( name!=null){
   settestopen(true)
   setserchopen(false)
 }

@@ -5,6 +5,10 @@ import { useRef } from "react"
 import html2canvas from "html2canvas"
 function Sendcv(){
 
+ 
+  
+
+
 const [vewcv , setvewcv]=useState(false)
 const [skill,setskill]=useState([])
 const [skill2,setskill2]=useState([])
@@ -54,6 +58,13 @@ const[shol,setshol]=useState('')
 
 const [creat,setcreat]=useState('Create')
 function vew(e){
+
+    window.scrollTo({
+        top:2800,
+        behavior:'smooth'
+        })
+
+
         
 if( skill == '' &&   skill2 == '' &&   skill3 == '' &&   skill4 == '' &&skill5 == '' ){
   seterorr('ج به شا نه هئله فالا')
@@ -61,10 +72,7 @@ if( skill == '' &&   skill2 == '' &&   skill3 == '' &&   skill4 == '' &&skill5 =
  setcreat(<i class="gg-spinner"></i>)
     setTimeout(() => {
         setcreat('Done')
-        window.scrollTo({
-        top:5500,
-        behavior:'smooth'
-        })
+       
           setskill([...skill,{
 id:skill.length,
 name:name,
@@ -105,7 +113,7 @@ id:skill4.length,
 reja:reja,
 knowlanguage:knowlanguage
 }])
-document.getElementById('input10').value=''
+// document.getElementById('input10').value=''
 document.getElementById('input11').value=''
 document.getElementById('input12').value=0
 setmore3('تو زمانه كئ  دي بزاني ديسا فرئكه فه')
@@ -150,8 +158,8 @@ setphotos(URL.createObjectURL(e.target.files[0]))
 
 
     return(
-<div >
-
+<div id="alsendcv" >
+<center>تيبيني : هه ر زانياريه كا ته فريكري لديفدا تو نه شي ب كهوري </center>
 {/* <div id="alirt" ref={alirt} >
 <button onClick={()=>{alirt.current.classList.add('displaynone')}}>AGREE</button>
 </div> */}
@@ -196,7 +204,7 @@ setphotos(URL.createObjectURL(e.target.files[0]))
 
 <div id="langujeform">
 {skill4.map((data)=>{return(<span key={data.id}>.({data.knowlanguage} ) </span>)})}
-<label id="ldaek" htmlFor="input10">زمانئ ته يئ دايكئ</label>
+{/* <label id="ldaek" htmlFor="input10">زمانئ ته يئ دايكئ</label>
 <select id="input10" onClick={(e)=>{setlanguje(e.target.value)}}>
         <option value=""></option>
         <option value="كوردي">كوردي</option>
@@ -207,7 +215,7 @@ setphotos(URL.createObjectURL(e.target.files[0]))
         <option value="arabic">arabic</option>
         <option value="english">english</option>
         <option value="turki">turki</option>
-    </select>
+    </select> */}
 
     <input type="text" id="input11"  onChange={(e)=>{setknowlanguje(e.target.value)}}  placeholder=" ج زمان دزاني"  />
     <label  id="done" htmlFor="input11">{don3}</label><br />
@@ -247,8 +255,13 @@ setphotos(URL.createObjectURL(e.target.files[0]))
 </div>
 
 
-{
- skill  != '' && skill2 != '' && skill3 != '' &&   skill4 != '' &&skill5 != '' &&skill6 != '' ?  <Vewcv skill={skill}skill2={skill2}skill3={skill3}skill4={skill4} skill5={skill5} skill6={skill6}  />: <></> }
+
+ 
+  
+    
+     {
+ skill  != '' && skill2 != '' && skill3 != '' &&   skill4 != '' &&skill5 != '' &&skill6 != '' ?
+   <Vewcv skill={skill}skill2={skill2}skill3={skill3}skill4={skill4} skill5={skill5} skill6={skill6}  />: <></> } 
 
         
         

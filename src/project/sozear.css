@@ -1,0 +1,192 @@
+.info{
+   background-color:rgb(248, 248, 248);
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    padding: 5px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    height: auto;
+}
+.info img{
+    width: 50%;
+}
+.info .page{
+   position: relative;
+   width: 20%;
+ left: 80%;
+ background-color: rgba(159, 6, 6, 0.999);
+ padding: 8px;
+ border-radius: 10px ;
+ rotate: -30deg;
+ color: aliceblue;
+ z-index: 1;
+ animation: 1.4s page1 linear;
+}
+.info .page::after{
+    content: "More";
+   position: absolute;
+   width: 100%;
+ left: -10%;
+ background-color: rgba(13, 2, 95, 0.789);
+ padding: 18px;
+ top: 90%;
+ z-index: 0;
+ border-radius: 10px;
+ rotate: 0deg;
+ color: aliceblue;
+ animation: 2s page linear;
+}
+@keyframes page {
+    0%{
+left: 20px;
+    }100%{
+
+    }
+}
+@keyframes page1 {
+    0%{
+left: 400px;
+    }100%{
+
+    }
+}
+.info .dis{
+   position: absolute;
+    width: 40%;
+    left: 55%;
+    top: 30%;
+    
+    
+}
+.info .diss{
+   position: absolute;
+    width: 40%;
+    left: 55%;
+    top: 80%;
+    margin-top: 20px;
+}
+.viss{
+    width: 400px;
+    position: relative;
+    left: 30%;
+    top: 20px;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    animation: link 6s infinite;
+}
+@keyframes link {
+    0%{
+background-color: green;
+    }50%{
+       
+background-color: rgb(100, 1, 1);
+    }100%{
+background-color: green;
+    }
+}
+.moreinfo{
+position: relative;
+width: 100%;
+
+}
+.moreinfo h2{
+position: relative;
+width: 80%;
+text-align: center;
+left: 10%;
+background-color: rgb(7, 108, 52);
+color: aliceblue;
+padding: 8px;
+height: 20px;
+border-radius: 10px 10px 0px 0px;
+z-index: 1;
+font-size: 15px;
+}
+.moreinfo h2::after{
+    position: absolute;
+    content: "information ";
+    width: 45%;
+text-align: center;
+left: 3%;
+background-color: rgb(7, 108, 52);
+color: aliceblue;
+padding: 10px;
+rotate: -350deg;
+top: 40%;
+z-index: 0;
+border-radius: 0px;
+}
+.moreinfo h2::before{
+    position: absolute;
+    content: "for this websity";
+    width: 40%;
+text-align: center;
+left: 50%;
+background-color: rgb(7, 108, 52);
+color: aliceblue;
+padding: 9px;
+rotate: 348deg;
+top: 45%;
+z-index: 0;
+border-radius: 0px;
+}
+.moreinfo p{
+position: relative;
+width: 100%;
+text-align: center;
+margin-top: 40px;
+}
+.moreinfo ul li {
+background-size: cover;
+list-style: circle ;
+line-height-step: 20px;
+position: relative;
+left: 15%;
+padding: 3px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info .name{
+    position: relative;
+    top: -10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: rgb(7, 128, 77);
+    color: aliceblue;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px 2px 80px 10px;
+    background: linear-gradient(to right,rgb(7, 128, 77),rgb(41, 33, 33));
+}
+.info .name::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    left: 100%;
+    top: 0px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+.info .name::after{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 2px;
+    left: 90%;
+    rotate: 90deg;
+    top: 45px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    animation: sahm 2s infinite;
+}
+@keyframes sahm {
+    0%{
+background-color: red;
+    }100%{
+
+    }
+}

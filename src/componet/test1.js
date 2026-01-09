@@ -30,7 +30,8 @@ let s=0;
 
 function show(){
  setsane(true);
-  setTimeout(()=>{
+ setTimeout(()=>{
+    document.getElementById('closinfo').style.display='block'
     if(all <= 18.5){
       setshow2(<div id='div1'>
        
@@ -38,7 +39,7 @@ function show(){
       <button> <button id='neasen'><b>{props.namee.target.value}</b><b >  به رئز</b><br /></button>
       <button>لسه ر ته بيتفيه تو كيشا له شي خو بلند بكه ي  ب كيمي بو 10 كيلويان به لئ ئه گه ر درئزياته لسه ر  175 دابيت و تو ره گه ز نئر بي دفئت هه تا 15-20 كيلويان زئده بكي بو ره گه ز مئ هه تا 8 كيلويان   </button> 
       </button>
-      <img src={zaef} alt="" />
+      
       </div>)
       }else if(  all >=18.5 && all <=22.9){
       setshow2(<div id='div1'>
@@ -46,7 +47,7 @@ function show(){
       <button> <button id='neasen'><b>{props.namee.target.value}</b><b >  به رئز</b><br /></button>
       <button>ته جسمه كي نورمال يي هه ي به لي ئەگەر تو 3-5 كيلويان ل خو زيده بكي دي گه له ك جانتربيت</button>
       </button>
-      <img src={normal} alt="" />
+      
       </div>)
       }else if(23.0 <= all && all <=25.9  ){
         setshow2(<div id='div1'>
@@ -54,7 +55,7 @@ function show(){
       <button> <button id='neasen'><b>{props.namee.target.value}</b><b >  به رئز</b><br /></button>
       <button>قياسي جمسي ته ل ديف دريزيا ته باشترين قياسه ل ديف ستانداردي جيهاني</button>
       </button>
-      <img src={galakbash} alt="" />
+      
       </div>);
    
       }else if(26.0 <= all && all <=34.9  ){
@@ -63,7 +64,7 @@ function show(){
      <button> <button id='neasen'><b>{props.namee.target.value}</b><b >  به رئز</b><br /></button>
      <button> ل ديف ستانداردي جيهاني ته قه له ويا بله 1 يا هه ي هشياربه نه هيله بيته بله 3 و بيتفيه هه تا 10-15 كيليوان ب كيمي بينيه خار </button>
      </button>
-     <img src={qalaw1} alt="" />
+     
      </div>)
     
       }else if(35.0 <= all && all <=39.0  ){
@@ -72,7 +73,7 @@ function show(){
       <button> <button id='neasen'><b>{props.namee.target.value}</b><b >  به رئز</b><br /></button>
       <button>تو كه له ك يي قه له وي بلا قه له ويا ته د كه هيته بله 2 هشياربه به ري بيه بله 3 دفيت 30-25 كيلويان بينيه خار</button>
       </button>
-      <img src={qalaw2} alt="" />
+     
       </div>)
     
       }else if(all > 40.0 ){
@@ -81,7 +82,7 @@ function show(){
         <button> <button id='neasen'><b>{props.namee.target.value}</b><b >  به رئز</b><br /></button>
         <button>هشیاربە تو یێ گەهشتیە بلندترین رێژا قەلەویێ دڤێت 40-50 کیلویان بینیە خوار  </button>
         </button>
-        <img src={qalaw3} alt="" />
+        
         </div>)
     
       }
@@ -95,7 +96,7 @@ function show(){
 
 
 if(saneus==true){
-  sane =  <button id='icc' > <i style={{color:'white'}} class="gg-time"><h2 style={{marginLeft:'30px', }}>3s</h2></i></button>
+  sane =  <button id='icc' > <i style={{color:'white'}} class="gg-time"><h2 style={{marginLeft:'10px',width:"50px" }}>3s</h2></i></button>
 }
 
   return(
@@ -123,10 +124,11 @@ if(saneus==true){
      <br />
     <br /><br /><br /><br />
 <div id='show'>
-  <button id='closinfo' onClick={()=>{
+  <button id='closinfo' style={{color:'white'}} onClick={()=>{
     setshow2('')
     setkesh(30)
     setdreje(0)
+    document.getElementById('closinfo').style.display='none'
     }}><i class="gg-close"></i></button>
   {show2}
 </div>
