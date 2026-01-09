@@ -123,7 +123,7 @@ var point=0
     <div id="dd" className="div">
     <img src={Logosahat} alt="" />
     <p id="p"> bissnes project for sozear compane</p>
-    <button  id="oop"  >Closed</button> 
+    <button  id="oop"  >Closed now</button> 
   </div>
 
 
