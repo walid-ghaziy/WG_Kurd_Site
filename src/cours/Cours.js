@@ -12,7 +12,8 @@ const path = useNavigate()
             <div id='info-cours'>
             <h2>C#</h2><span>6 Lissen</span><br />
             <button value={"c"} onClick={(e)=>{
-                path(`View/${e.target.value}`)
+                alert("لده مه كئ نيزيك")
+                // path(`View/${e.target.value}`)
             }}>View Cors</button>   
             </div>
         </div>
