@@ -1,3 +1,38 @@
 *{
     color: white;
 }
+
+#Box-cours{
+border: solid 0.5px rgba(255, 255, 255, 0.16);
+display: inline-block;
+position: relative;
+width:35%;
+min-height: 250px;
+border-radius: 10px;
+overflow: hidden;
+margin: 30px;
+img{
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+#info-cours{
+    position: relative;
+    color: aliceblue;
+    top: 0%;
+    height: 30%;
+    padding: 8px;
+    z-index: 2;
+  button{
+    position: absolute;
+    width: 60%;
+    padding: 10px;
+    right: 3%;
+    bottom: 9%;
+    border-radius: 8px;
+    color: black;
+    border: none;
+  }
+
+}
+}

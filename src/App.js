@@ -19,6 +19,8 @@ import QR from './QR/QR'
 import Sozear from './project/sozear';
 import Mycv from './MyCv/Mycv'
 import Cours from './cours/Cours';
+import Heder from './Heder';
+import View from './cours/View';
 function App() {
 
 
@@ -55,22 +57,7 @@ if(numberenu % 2 == 0){
   </div>
 
     
-   
-
-        <div id="heder">
-    <img id="imm" src={w} alt="" onClick={()=>{homee('/WG_Kurd_Site')}}/>
-    <div id="welcome" >
-    <h2>WG Kurd WEBSITE</h2>  
-    </div>
-<div>
-  <input type="serch" id='serch' placeholder='SERCH'/>
-</div><br /><br />
-<div id='div-heder-button'>
-<button onClick={()=>{homee('/WG_Kurd_Site')}}>Home</button>
-<button onClick={()=>{alert("دبارئ دروستكرنئ دايه")}}>My Cours</button>
-
-</div>
-</div>
+<Heder/>
 <br /><br /><br />
 
 <Routes >
@@ -82,6 +69,7 @@ if(numberenu % 2 == 0){
   <Route path='WG_Kurd_Site/QR' element={<QR/>}/>
   <Route path='WG_Kurd_Site/Sozear' element={<Sozear/>}/>
   <Route path='WG_Kurd_Site/Cours' element={<Cours/>}/>
+  <Route path='WG_Kurd_Site/Cours/View/:CoursName' element={<View/>}/>
  
  
 </Routes>
