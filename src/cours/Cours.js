@@ -10,7 +10,7 @@ const path = useNavigate()
         <div id="Box-cours">
             <img src={im} alt="" />
             <div id='info-cours'>
-            <h2>C#</h2><span>6 Lissen</span><br />
+            <h2>C#</h2><p>6 Lissen</p> <br /><br />
             <button value={"c"} onClick={(e)=>{
                 alert("لده مه كئ نيزيك")
                 // path(`View/${e.target.value}`)
