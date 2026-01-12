@@ -20,7 +20,7 @@ img{
     position: relative;
     color: aliceblue;
     top: 0%;
-    height: 30%;
+    height: auto;
     padding: 8px;
     z-index: 2;
   button{
