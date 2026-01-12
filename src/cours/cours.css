@@ -6,7 +6,7 @@
 border: solid 0.5px rgba(255, 255, 255, 0.16);
 display: inline-block;
 position: relative;
-width:35%;
+width:38%;
 min-height: 250px;
 border-radius: 10px;
 overflow: hidden;
@@ -24,7 +24,7 @@ img{
     padding: 8px;
     z-index: 2;
   button{
-    position: absolute;
+    position: relative;
     width: 92%;
     padding: 10px;
     left: 4%;
